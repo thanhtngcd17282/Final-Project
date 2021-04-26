@@ -1,0 +1,12 @@
+1.composer install
+2. cp .env.example .env
+3. config database .env file
+4. php artisan key:generate
+5. php artisan migrate
+6. php artisan db:seed
+User admin default:
+admin@gmail.com
+password
+run server: php artisan serve
+run listen: php artisan queue:listen
+run script: ./start.sh (on linux system to convert video m3u8 to mp4)

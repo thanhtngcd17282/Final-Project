@@ -1,0 +1,27 @@
+
+    .widget .list-group { margin-bottom: 1rem; }
+    .widget .label-info { float: right; }
+    .widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+    .widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+    .mic-info { color: #666666;font-size: 11px}
+    .widget .action { margin-top:5px; }
+    .widget .comment-text { font-size: 12px; }
+    h1{
+        margin-bottom: 10px;
+    }
+    .video-js {
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    /* On screens that are 992px or less, set the background color to blue */
+    @media screen and (max-width: 992px) {
+        .video-js {
+            height: 50vh;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+        .video-js {
