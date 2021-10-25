@@ -24,11 +24,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $newest_videos = VideoStream::Limit(6)->get();
-        $like_videos = VideoStream::Limit(6)->get();
-        return view('home',[
-            'newest_videos' => $newest_videos,
-            'like_videos' => $like_videos
-        ]);
+        if (auth()->user()) {
+            $newest_videos = VideoStream::Limit(6)->get();
+            $like_videos = VideoStream::Limit(6)->get();
+            return view('home', [
+                'newest_videos' => $newest_videos,
+                'like_videos' => $like_videos
+            ]);
+        }else{
+            return view('home2');
+        }
     }
 }
