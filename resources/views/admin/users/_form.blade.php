@@ -30,7 +30,7 @@
         <label for="roles">Roles</label>
         
         <div class="checkbox">
-            <label><input name="role" type="checkbox" value="1" {{ $user->roles==1 ? 'checked' : 0 }}>Admin</label>
+            <label><input name="roles" type="checkbox" {{ $user->roles==1 ? 'checked' : 0 }}>Admin</label>
         </div>
     </div>
       

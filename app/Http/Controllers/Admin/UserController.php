@@ -58,14 +58,12 @@ class UserController extends Controller
     public function update(Request $request, User $user)
     {
         if ($request->filled('password')) {
-            $request->merge([
-                'password' => Hash::make($request->input('password'))
-            ]);
+            $request['password'] = Hash::make($request->input('password'));
         }
 
         $user->update(array_filter($request->only(['name', 'email', 'password', 'role'])));
 
-        return redirect()->route('admin.users.edit', $user)->withSuccess("Update success");
+        return redirect()->back()->with(['class' => 'success', 'message' => 'Update Success.']);
     }
 
     /**

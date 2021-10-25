@@ -51,10 +51,11 @@
             </div>
             @guest
             <p>Login to like and comment</p>
-            @endif
+            @else
             <div class="col-lg-4" id="app">
                 <example :user="{{ auth()->user() }}" :video="{{ $video }}"></example>
             </div>
+            @endif
         </div>
     </div>
 </section>
@@ -67,8 +68,6 @@
 <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
 <script src="https://unpkg.com/videojs-flash/dist/videojs-flash.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js" integrity="sha512-JnjG+Wt53GspUQXQhc+c4j8SBERsgJAoHeehagKHlxQN+MtCCmFDghX9/AcbkkNRZptyZU4zC8utK59M5L45Iw==" crossorigin="anonymous"></script>
-@guest
-@else
 <script type="text/javascript">
     //Like event
     Echo.channel('video-act-events')
@@ -114,5 +113,4 @@
         axios.post('/donate/' + videoID + '/donate',{ price: price });
     }
 </script>
-@endif
 @endsection
