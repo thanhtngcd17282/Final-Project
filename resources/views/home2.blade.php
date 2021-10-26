@@ -1,17 +1,10 @@
-<!--A Design by W3layouts
-   Author: W3layout
-   Author URL: http://w3layouts.com
-   -->
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-    <title>Dragon Hunt a Games Category Bootstrap responsive Website Template | Home :: w3layouts</title>
+    <title>WeKam TV</title>
     <!--meta tags -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Dragon Hunt Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-         Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
     <script>
         addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
@@ -65,8 +58,7 @@
                     </nav>
                 </div>
                 <div class="hedder-logo">
-                    <h1><a href="index.html">
-                            <img src="images/logo.png" class="img-fluid" alt="Responsive image">DH</a>
+                    <h1><a href="home2.blade.php">WeKam TV</a>
                     </h1>
                 </div>
                 <!-- /open/close -->
@@ -78,10 +70,10 @@
         <div class="slides text-center">
             <div class="slide slide--current one-img ">
                 <div class="slider-up">
-                    <h4>DH</h4>
-                    <h5>Dragon<span class="fab fa-d-and-d"></span>Hunt</h5>
+                    <h4>WeKam TV</h4>
+                    <h5></h5>
                     <div class="outs_more-buttn">
-                        <a href="contact.html">Book Now</a>
+                    <a href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
                 <div class="slide__img">
@@ -89,50 +81,50 @@
             </div>
             <div class="slide two-img">
                 <div class="slider-up">
-                    <h4>DH</h4>
-                    <h5>Dragon<span class="fab fa-d-and-d"></span>Hunt</h5>
+                    <h4>WeKam TV</h4>
+                    <h5></h5>
                     <div class="outs_more-buttn">
-                        <a href="contact.html">Book Now</a>
+                    <a href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
                 <div class="slide__img"></div>
             </div>
             <div class="slide three-img">
                 <div class="slider-up">
-                    <h4>DH</h4>
-                    <h5>Dragon<span class="fab fa-d-and-d"></span>Hunt</h5>
+                    <h4>WeKam TV</h4>
+                    <h5></h5>
                     <div class="outs_more-buttn">
-                        <a href="contact.html">Book Now</a>
+                    <a href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
                 <div class="slide__img "></div>
             </div>
             <div class="slide four-img">
                 <div class="slider-up">
-                    <h4>DH</h4>
-                    <h5>Dragon<span class="fab fa-d-and-d"></span>Hunt</h5>
+                    <h4>WeKam TV</h4>
+                    <h5></h5>
                     <div class="outs_more-buttn">
-                        <a href="contact.html">Book Now</a>
+                    <a href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
                 <div class="slide__img "></div>
             </div>
             <div class="slide five-img">
                 <div class="slider-up">
-                    <h4>DH</h4>
-                    <h5>Dragon<span class="fab fa-d-and-d"></span>Hunt</h5>
+                    <h4>WeKam TV</h4>
+                    <h5></h5>
                     <div class="outs_more-buttn">
-                        <a href="contact.html">Book Now</a>
+                    <a href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
                 <div class="slide__img "></div>
             </div>
             <div class="slide six-img">
                 <div class="slider-up">
-                    <h4>DH</h4>
-                    <h5>Dragon<span class="fab fa-d-and-d"></span>Hunt</h5>
+                    <h4>WeKam TV</h4>
+                    <h5></h5>
                     <div class="outs_more-buttn">
-                        <a href="contact.html">Book Now</a>
+                    <a href="{{ route('login') }}">Login</a>
                     </div>
                 </div>
                 <div class="slide__img "></div>
@@ -159,9 +151,6 @@
                 <li><a href="#"><span class="fas fa-rss"></span></a></li>
                 <li><a href="#"><span class="fab fa-vk"></span></a></li>
             </ul>
-        </div>
-        <div class="footer-below text-center">
-            <p>©2018 Dragon Hunt. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a></p>
         </div>
     </footer>
     <!-- //Footer -->
